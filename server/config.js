@@ -1,0 +1,7 @@
+export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "924320937024-3imf18judn4h1e741m48c63svpvrnr5h.apps.googleusercontent.com"
+export const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SICRET || "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"
+export const SERVER_ROOT_URI = "http://localhost:4000"
+export const UI_ROOT_URI = "http://localhost:3000" 
+export const JWT_SECRET = "hello" 
+export const COOKIE_NAME = "auth_token"
+export const REDIRECT_URI = "http://localhost:4000/auth/google"
